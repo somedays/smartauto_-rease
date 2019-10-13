@@ -1,0 +1,202 @@
+
+/* noto-sans-kr-100 - latin_korean */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 100;
+src: url('../fonts/noto-sans-kr-v12-latin_korean-100.eot'); /* IE9 Compat Modes */
+src: local('Noto Sans KR Thin'), local('NotoSansKR-Thin'),
+        url('../fonts/noto-sans-kr-v12-latin_korean-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/noto-sans-kr-v12-latin_korean-100.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-100.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-100.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/noto-sans-kr-v12-latin_korean-100.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-kr-300 - latin_korean */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 300;
+src: url('../fonts/noto-sans-kr-v12-latin_korean-300.eot'); /* IE9 Compat Modes */
+src: local('Noto Sans KR Light'), local('NotoSansKR-Light'),
+        url('../fonts/noto-sans-kr-v12-latin_korean-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/noto-sans-kr-v12-latin_korean-300.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-300.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-300.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/noto-sans-kr-v12-latin_korean-300.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-kr-regular - latin_korean */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot'); /* IE9 Compat Modes */
+src: local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
+        url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/noto-sans-kr-v12-latin_korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/noto-sans-kr-v12-latin_korean-regular.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-kr-500 - latin_korean */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 500;
+src: url('../fonts/noto-sans-kr-v12-latin_korean-500.eot'); /* IE9 Compat Modes */
+src: local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
+        url('../fonts/noto-sans-kr-v12-latin_korean-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/noto-sans-kr-v12-latin_korean-500.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-500.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-500.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/noto-sans-kr-v12-latin_korean-500.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-kr-700 - latin_korean */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+src: url('../fonts/noto-sans-kr-v12-latin_korean-700.eot'); /* IE9 Compat Modes */
+src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
+        url('../fonts/noto-sans-kr-v12-latin_korean-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/noto-sans-kr-v12-latin_korean-700.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-700.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-700.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/noto-sans-kr-v12-latin_korean-700.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-kr-900 - latin_korean */
+@font-face {
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 900;
+src: url('../fonts/noto-sans-kr-v12-latin_korean-900.eot'); /* IE9 Compat Modes */
+src: local('Noto Sans KR Black'), local('NotoSansKR-Black'),
+        url('../fonts/noto-sans-kr-v12-latin_korean-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/noto-sans-kr-v12-latin_korean-900.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-900.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-900.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/noto-sans-kr-v12-latin_korean-900.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+
+/* Font - Nanum Square */
+@import url('nanumsquare.css');
+
+/* Reset */
+html {font-size:15px;}
+html, body, h1, h2, h3, h4, h5, h6, p, div, img {margin:0;padding:0;border:0;font-family:'Noto Sans KR', sans-serif;}
+h1,h2{font-weight:bold;}
+strong {font-weight:600;}
+table,tr,td,thead,tbody,tfoot{border-style:solid;border-color:#333;border-spacing:0;border-collapse:collapse;}
+ul, ol, li{list-style: none;padding:0;margin:0;}
+a{text-decoration:none;color:#323232;}
+a:hover{color: #c2c2c2;}
+button:focus{outline:none;}
+input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;}
+
+/* Side Nav */
+.side-nav {position:fixed;top:0;left:0;width:133px;bottom:0;background-color:#3328ae;z-index:11;text-align:center;}
+.side-nav h1 {background-color:#4c40d6;height:154px;padding-top:15px;box-sizing:border-box;}
+.side-nav h1 img {vertical-align:middle;}
+.side-nav .nav-list {height:calc(100% - 354px);}
+.side-nav .nav-list ul {padding-top:20px;}
+.side-nav li {position:relative;}
+.side-nav li a {display:block;color:#fff;line-height:34px;font-size:15px;font-weight:600;letter-spacing:-0.5px;}
+.side-nav li a span {display:inline-block;line-height:34px;background-color:#3328ae;padding:0 5px;z-index:2;position:relative;}
+.side-nav li a:hover {color:#ff8762;}
+.side-nav li a:hover:before {content:"";position:absolute;top:50%;left:0;width:50%;height:1px;background-color:#ff8762;}
+.side-nav li a img {vertical-align:middle;padding-left:3px;}
+
+.side-nav .side-info {position:fixed;bottom:0;left:15px;width:103px;padding-bottom:15px;color:#fff;}
+.side-nav .side-info > div {border-top:1px solid #635bc0;}
+.side-nav .side-info .contact-info {padding:10px 0;color:#ff8762;font-size:32px;font-weight:800;letter-spacing:-1px;line-height:30px;font-family:'NanumSquare'}
+.side-nav .side-info .work-info {padding:7px 0 0 0;}
+.side-nav .side-info .work-info p {font-size:13px;line-height:17px;margin-top:4px;font-weight:600;}
+
+
+.content {position:absolute;top:0;left:133px;right:0;bottom:0;min-width:1137px;overflow:auto;}
+
+.header {z-index:10;}
+.header.main {height:927px;background:#000 url(../img/bg_main_img.png) 0 0 no-repeat;position:relative;box-sizing:border-box;}
+.header-wrap {position:relative;padding-left:120px;white-space:nowrap;box-sizing:border-box;}
+.header-wrap:after {content:"";display:block;clear:both;}
+
+
+.header .header-tt {font-family:'NanumSquare';font-size:36px;font-weight:800;color:#fff;padding-top:30px;line-height:40px;}
+.header .header-tt small {font-size:30px;font-weight:500;letter-spacing:-1px;}
+.header .nav {float:left;margin:0;vertical-align:middle;}
+.header .nav ul {margin:5px 0 0 0;padding:0;border-bottom:1px solid #fff;}
+.header .nav ul:after {content:"";display:block;clear:both;}
+.header .nav > ul > li {float:left;padding:0 15px 0 0;position:relative;}
+.header .nav > ul > li:last-child {padding-right:0;}
+.header .nav > ul > li > a {color:#fff;display:block;font-size:20px;font-weight:600;height:65px;line-height:65px;padding:0;font-family:'NanumSquare';}
+.header .nav > ul > li > a > span {display:inline-block;line-height:63px;box-sizing:border-box;border-bottom:2px solid transparent;padding:0 10px;}
+.header .nav > ul > li.active > a > span {border-bottom:2px solid #ff8762;color:#ff8762;}
+.header .nav > ul > li > a:hover {text-decoration:underline;color:#ff8762;}
+.header .nav > ul > li > a:hover > span {border-bottom:2px solid #ff8762;}
+.header .nav > ul > li > a + ul {display:none;}
+.header .nav > ul > li.on > a + ul,
+.header .nav > ul > li.active > a + ul {display:block;position:absolute;top:60px;left:-20px;right:-20px;border-bottom:0 none;}
+.header .nav > ul > li > a + ul:after {content:"";display:block;clear:both;}
+.header .nav > ul > li > a + ul > li {float:left;padding:15px 5px;background-color:rgba(0,0,0,0.001)}
+.header .nav > ul > li > a + ul > li > a {color:#fff;display:block;font-weight:600;padding:0;font-family:'NanumSquare';}
+.header .nav > ul > li > a + ul > li > a span {display:inline-block;font-size:17px;padding:5px 15px;border-radius:20px;}
+.header .nav > ul > li > a + ul > li > a:hover span {background-color:#ff8762;}
+
+
+.header .banner {position:absolute;top:0;right:0;padding:50px 50px 0 30px;font-size:0;vertical-align:middle;}
+.header .banner a {display:inline-block;padding:0 20px;}
+
+.header .main-text {position:absolute;top:260px;left:120px;color:#fff;}
+.header .main-text p {margin-bottom:20px;font-family:'NanumSquare';font-size:15px;line-height:24px;}
+.header .main-text p strong {font-size:37px;letter-spacing:-2px;font-weight:400;line-height:44px;display:inline-block;}
+.header .main-text p strong span {border-bottom:1px solid #fff;display:inline-block;margin-top:5px;}
+.header .main-text p strong span:first-child {font-weight:800;}
+.header .main-text p em {font-size:24px;font-style:normal;line-height:30px;letter-spacing:-2px;}
+
+.header.main .side-banner {position:absolute;bottom:0;right:0;width:645px;height:775px;}
+.header.main .side-banner img {max-width:100%;}
+.header.main .side-banner .owl-nav {position:absolute;bottom:0;left:-55px;}
+.header.main .side-banner.owl-carousel .owl-nav button.owl-next,
+.header.main .side-banner.owl-carousel .owl-nav button.owl-prev {width:55px;height:70px;line-height:60px;box-sizing:border-box;border-top:1px solid #fff;color:#fff;}
+.header.main .side-banner.owl-carousel .owl-nav button.owl-next {border-right:1px solid #fff;}
+.header.main .side-banner.owl-carousel .owl-nav button.owl-prev {border-left:1px solid #fff;}
+.header.main .side-banner.owl-carousel .owl-nav button.owl-next span,
+.header.main .side-banner.owl-carousel .owl-nav button.owl-prev span {display:inline-block;font-size:48px;}
+
+
+.hotdeal-item {position:relative;}
+.tp-parallax-wrap {width:100%;}
+.tp-loop-wrap,
+.tp-mask-wrap {width:100%;text-align:center;}
+
+.main-slide-cars {position:relative;background-color:#fff;padding:100px 0;}
+.main-slide-cars .slide-item {position:relative;box-sizing:border-box;}
+.main-slide-cars .slide-item .item-header {position:relative;height:300px;line-height:300px;box-sizing:border-box;text-align:center;z-index:2;}
+.main-slide-cars .slide-item .item-header .promotions {position:absolute;top:30px;left:40px;line-height:15px;display:none;}
+.main-slide-cars .slide-item .item-header .promotions .pro-icon {display:inline-block;width:58px;height:58px;border-radius:29px;background-color:#4d4ddb;color:#fff;font-size:13px;text-align:center;box-sizing:border-box;}
+.main-slide-cars .slide-item .item-header .promotions .pro-icon span {display:inline-block;color:#fff;font-size: 12px;padding-top:15px;text-align:center;font-weight: 600;line-height:15px;letter-spacing:-1px;}
+.main-slide-cars .slide-item .item-header .promotions .pro-icon.type-1 {background-color:#4d4ddb;}/* 무보증 가능 */
+.main-slide-cars .slide-item .item-header .promotions .pro-icon.type-2 {background-color:#fb304d;}/* 파격 할인율 */
+.main-slide-cars .slide-item .item-header .promotions .pro-icon.type-3 {background-color:#f3965e;}/* 굿바이 할인 */
+.main-slide-cars .slide-item .item-header .promotions .pro-icon.type-4 {background-color:#9eb964;}/* 신형 프로모션 */
+.main-slide-cars .slide-item .item-header img {vertical-align:bottom;max-width:100%;max-height:200px;}
+.main-slide-cars .slide-item .item-header .promotions .pro-icon.type-5 {background-color:#2bb2ff;}/* 즉시 출고 */
+.main-slide-cars .slide-item .item-info {position:relative;height:185px;background-color:#f6f6f6;z-index:2;margin:0 10px 10px 10px;box-sizing:border-box;}
+
+.rev_slider li.active-revslide {}
+.rev_slider li.active-revslide:before {content:"";visibility:visible !important;position:absolute;top:0;bottom:0;left:0;right:0;border:10px solid #444;}
+.rev_slider li.active-revslide:after {content:"";visibility:visible !important;position:absolute;top:0;bottom:0;left:50px;right:50px;border:10px solid #fff;z-index:1;}
+.rev_slider li.active-revslide .item-header .promotions {display:block;}
+
+.main-quick-inquery {height:200px;background-image:url(../img/bg_quick_inquery.png);background-size:cover;background-position:50% 50%;}
+
+
+@media (max-width:1800px) {
+	.header .banner {padding:15px 30px 0 30px;}
+}
+
+@media (max-width:1300px) {
+	.header-wrap {padding-left:70px;}
+	.header .main-text {left:70px;}
+
+}
