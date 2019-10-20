@@ -1,11 +1,11 @@
 
 /* noto-sans-kr-100 - latin_korean */
 @font-face {
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 100;
-src: url('../fonts/noto-sans-kr-v12-latin_korean-100.eot'); /* IE9 Compat Modes */
-src: local('Noto Sans KR Thin'), local('NotoSansKR-Thin'),
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:100;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-100.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Thin'), local('NotoSansKR-Thin'),
         url('../fonts/noto-sans-kr-v12-latin_korean-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('../fonts/noto-sans-kr-v12-latin_korean-100.woff2') format('woff2'), /* Super Modern Browsers */
         url('../fonts/noto-sans-kr-v12-latin_korean-100.woff') format('woff'), /* Modern Browsers */
@@ -14,11 +14,11 @@ src: local('Noto Sans KR Thin'), local('NotoSansKR-Thin'),
 }
 /* noto-sans-kr-300 - latin_korean */
 @font-face {
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 300;
-src: url('../fonts/noto-sans-kr-v12-latin_korean-300.eot'); /* IE9 Compat Modes */
-src: local('Noto Sans KR Light'), local('NotoSansKR-Light'),
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:300;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-300.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Light'), local('NotoSansKR-Light'),
         url('../fonts/noto-sans-kr-v12-latin_korean-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('../fonts/noto-sans-kr-v12-latin_korean-300.woff2') format('woff2'), /* Super Modern Browsers */
         url('../fonts/noto-sans-kr-v12-latin_korean-300.woff') format('woff'), /* Modern Browsers */
@@ -27,11 +27,11 @@ src: local('Noto Sans KR Light'), local('NotoSansKR-Light'),
 }
 /* noto-sans-kr-regular - latin_korean */
 @font-face {
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 400;
-src: url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot'); /* IE9 Compat Modes */
-src: local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:400;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
         url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('../fonts/noto-sans-kr-v12-latin_korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
         url('../fonts/noto-sans-kr-v12-latin_korean-regular.woff') format('woff'), /* Modern Browsers */
@@ -40,11 +40,11 @@ src: local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
 }
 /* noto-sans-kr-500 - latin_korean */
 @font-face {
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 500;
-src: url('../fonts/noto-sans-kr-v12-latin_korean-500.eot'); /* IE9 Compat Modes */
-src: local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:500;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-500.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
         url('../fonts/noto-sans-kr-v12-latin_korean-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('../fonts/noto-sans-kr-v12-latin_korean-500.woff2') format('woff2'), /* Super Modern Browsers */
         url('../fonts/noto-sans-kr-v12-latin_korean-500.woff') format('woff'), /* Modern Browsers */
@@ -53,11 +53,11 @@ src: local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
 }
 /* noto-sans-kr-700 - latin_korean */
 @font-face {
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 700;
-src: url('../fonts/noto-sans-kr-v12-latin_korean-700.eot'); /* IE9 Compat Modes */
-src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:700;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-700.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
         url('../fonts/noto-sans-kr-v12-latin_korean-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('../fonts/noto-sans-kr-v12-latin_korean-700.woff2') format('woff2'), /* Super Modern Browsers */
         url('../fonts/noto-sans-kr-v12-latin_korean-700.woff') format('woff'), /* Modern Browsers */
@@ -66,11 +66,11 @@ src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
 }
 /* noto-sans-kr-900 - latin_korean */
 @font-face {
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 900;
-src: url('../fonts/noto-sans-kr-v12-latin_korean-900.eot'); /* IE9 Compat Modes */
-src: local('Noto Sans KR Black'), local('NotoSansKR-Black'),
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:900;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-900.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Black'), local('NotoSansKR-Black'),
         url('../fonts/noto-sans-kr-v12-latin_korean-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('../fonts/noto-sans-kr-v12-latin_korean-900.woff2') format('woff2'), /* Super Modern Browsers */
         url('../fonts/noto-sans-kr-v12-latin_korean-900.woff') format('woff'), /* Modern Browsers */
@@ -87,9 +87,9 @@ html, body, h1, h2, h3, h4, h5, h6, p, div, img {margin:0;padding:0;border:0;fon
 h1,h2{font-weight:bold;}
 strong {font-weight:600;}
 table,tr,td,thead,tbody,tfoot{border-style:solid;border-color:#333;border-spacing:0;border-collapse:collapse;}
-ul, ol, li{list-style: none;padding:0;margin:0;}
+ul, ol, li{list-style:none;padding:0;margin:0;}
 a{text-decoration:none;color:#323232;}
-a:hover{color: #c2c2c2;}
+a:hover{color:#c2c2c2;}
 button:focus{outline:none;}
 input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;}
 
@@ -185,7 +185,7 @@ input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;}
 .main-slide-cars .slide-item .item-header {position:relative;height:300px;line-height:300px;box-sizing:border-box;text-align:center;z-index:2;}
 .main-slide-cars .slide-item .item-header .promotions {position:absolute;top:30px;left:40px;line-height:15px;display:none;}
 .main-slide-cars .slide-item .item-header .promotions .pro-icon {display:inline-block;width:58px;height:58px;border-radius:29px;background-color:#4d4ddb;color:#fff;font-size:13px;text-align:center;box-sizing:border-box;}
-.main-slide-cars .slide-item .item-header .promotions .pro-icon span {display:inline-block;color:#fff;font-size: 12px;padding-top:15px;text-align:center;font-weight: 600;line-height:15px;letter-spacing:-1px;}
+.main-slide-cars .slide-item .item-header .promotions .pro-icon span {display:inline-block;color:#fff;font-size:12px;padding-top:15px;text-align:center;font-weight:600;line-height:15px;letter-spacing:-1px;}
 .main-slide-cars .slide-item .item-header .promotions .pro-icon.type-1 {background-color:#4d4ddb;}/* 무보증 가능 */
 .main-slide-cars .slide-item .item-header .promotions .pro-icon.type-2 {background-color:#fb304d;}/* 파격 할인율 */
 .main-slide-cars .slide-item .item-header .promotions .pro-icon.type-3 {background-color:#f3965e;}/* 굿바이 할인 */
@@ -219,7 +219,8 @@ input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;}
 .quick-inquery-form select {float:left;width:180px;background-color:rgba(255,255,255,0.28);border:1px solid #fff;margin-left:-1px;color:#fff;font-size:15px;font-weight:600;height:50px;line-height:48px;box-sizing:border-box;padding:0 15px;text-align:center;}
 .quick-inquery-form input[type="text"]::placeholder {color:#fff;}
 .quick-inquery-form select option {color:#000;}
-.quick-inquery-form .quick-btn {float:left;width:180px;margin-left:15px;height:50px;background-color:#fa6143;border:0 none;text-align:center;color:#fff;font-weight:600;font-size:16px;}
+.quick-inquery-form .quick-btn {float:left;width:180px;margin-left:15px;height:50px;line-height:48px;background-color:#fa6143;border:0 none;text-align:center;color:#fff;font-weight:600;font-size:16px;cursor:pointer;}
+.quick-inquery-form .quick-btn:hover {background-color:#ff6e61;}
 
 .main-fact-check {background-image:url(../img/bg_main_fact.png);background-size:cover;background-position:50% 50%;height:630px;border-bottom:10px solid #e55778;box-sizing:border-box;}
 .main-fact-wrap {position:relative;max-width:1300px;margin:0 auto;text-align:center;height:630px;}
@@ -290,16 +291,128 @@ input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;}
 .board-area .board-header li:nth-child(4),
 .board-area .board-list .board-item span:nth-child(4) {width:110px;}
 .board-area.waiting .board-header li:nth-child(1),
-.board-area.waiting .board-list li .board-item span:nth-child(1) {width: 130px;}
+.board-area.waiting .board-list li .board-item span:nth-child(1) {width:130px;}
 .board-area.waiting .board-header li:nth-child(2),
-.board-area.waiting .board-list li .board-item span:nth-child(2) {width: 100px;}
+.board-area.waiting .board-list li .board-item span:nth-child(2) {width:100px;}
 .board-area.waiting .board-header li:nth-child(3),
-.board-area.waiting .board-list li .board-item span:nth-child(3) {width: 90px;}
+.board-area.waiting .board-list li .board-item span:nth-child(3) {width:90px;}
 .board-area.waiting .board-header li:nth-child(4),
-.board-area.waiting .board-list li .board-item span:nth-child(4) {width: 80px;}
+.board-area.waiting .board-list li .board-item span:nth-child(4) {width:80px;}
 .board-area.waiting .board-header li:nth-child(5),
-.board-area.waiting .board-list li .board-item span:nth-child(5) {width: 108px;}
+.board-area.waiting .board-list li .board-item span:nth-child(5) {width:108px;}
 
+.main-advantage {background-image:url(../img/bg_main_advantage.jpg);background-size:cover;background-position:50% 50%;min-height:400px;max-height:485px;text-align:center;color:#fff;}
+.main-advantage h3 {font-weight:800;font-family:'NanumSquare';font-size:48px;padding-top:100px;}
+.main-advantage hr {width:80px;display:inline-block;}
+.main-advantage p {font-size:16px;letter-spacing:-1px;line-height:24px;}
+.main-advantage a {display:inline-block;border:1px solid #fff;color:#fff;padding:10px 20px;font-weight:600;font-family:'NanumSquare';font-size:16px;margin-top:20px;}
+.main-advantage a:hover {border-color:#ff6e61;color:#ff6e61;}
+
+
+.main-youtube {background-image:url(../img/bg_main_youtube.jpg);background-size:cover;background-position:50% 50%;text-align:center;color:#fff;padding:100px 0;}
+.main-youtube-wrap {max-width:1260px;margin:0 auto;}
+.main-youtube .main-youtube-tt h3 {font-weight:800;font-family:'NanumSquare';font-size:48px;padding-bottom:30px;}
+.main-youtube .main-youtube-tt h3 span {color:#ff9966;}
+.main-youtube .main-youtube-tt p {font-size:16px;letter-spacing:-1px;line-height:24px;}
+.main-youtube .main-youtube-tt a {display:inline-block;border:1px solid #fff;color:#fff;padding:10px 20px;font-weight:600;font-family:'NanumSquare';font-size:16px;margin-top:20px;}
+.main-youtube .main-youtube-tt a:hover {border-color:#ff6e61;color:#ff6e61;}
+.main-youtube .list-youtube {padding-top:50px;}
+.main-youtube .list-youtube ul:after {content:"";display:block;clear:both;}
+.main-youtube .list-youtube li {float:left;width:50%;padding:0 40px;box-sizing:border-box;}
+.main-youtube .list-youtube li h4 {text-align:left;padding:15px 0;font-size:20px;}
+.main-youtube .list-youtube li p {font-size:16px;text-align:left;}
+
+
+.main-carstagram {background-image:url(../img/bg_main_carstagram.jpg);background-size:cover;background-position:50% 50%;text-align:center;color:#000;padding:100px 0;}
+.main-carstagram-wrap {max-width:1260px;margin:0 auto;}
+.main-carstagram .main-carstagram-tt h3 {font-weight:800;font-family:'NanumSquare';font-size:48px;padding-bottom:30px;}
+.main-carstagram .main-carstagram-tt h3 span {color:#ff9966;}
+.main-carstagram .main-carstagram-tt p {font-size:16px;letter-spacing:-1px;line-height:24px;color:#666;}
+.main-carstagram .main-carstagram-tt a {display:inline-block;border:1px solid #fff;color:#fff;padding:10px 20px;font-weight:600;font-family:'NanumSquare';font-size:16px;margin-top:20px;}
+.main-carstagram .main-carstagram-tt a:hover {border-color:#ff6e61;color:#ff6e61;}
+.main-carstagram .list-carstagram {position:relative;margin:30px 0;padding:70px 0;}
+.main-carstagram .list-carstagram:before {content:"";position:absolute;top:0;left:-50px;background:url(../img/bg_main_carstagram-left.png);width:150px;height:164px;}
+.main-carstagram .list-carstagram:after {content:"";position:absolute;bottom:0;right:-50px;background:url(../img/bg_main_carstagram-right.png);width:150px;height:164px;}
+.main-carstagram .list-carstagram ul:after {content:"";display:block;clear:both;}
+.main-carstagram .list-carstagram li {float:left;width:25%;padding:0 15px;box-sizing:border-box;}
+.main-carstagram .list-carstagram li .carstagram-item {background-color:#fff;box-shadow:0 0 20px #f2f2f2;}
+.main-carstagram .list-carstagram li .item-tt {text-align:left;padding:30px 15px 5px 15px;font-size:20px;font-weight:600;font-family:'NanumSquare';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.main-carstagram .list-carstagram li .item-img {height:160px;width:100%;overflow:hidden;line-height:160px;position:relative;left:0;}
+.main-carstagram .list-carstagram li .item-img img {position:absolute;width:100%;transform:translate(-50%,-50%);top:50%;left:50%;}
+.main-carstagram .list-carstagram li .item-txt {font-size:16px;text-align:left;padding:5px 15px;font-size:14px;line-height:18px;font-weight:400;color:#666;letter-spacing:-1px;}
+.main-carstagram .list-carstagram li .item-tag {padding:10px 15px 30px 15px;text-align:left;overflow:hidden;height:64px;box-sizing:border-box;white-space:nowrap;text-overflow:ellipsis;}
+.main-carstagram .list-carstagram li .item-tag span {display:inline-block;color:#493e71;padding:5px 5px 0 0;font-size:14px;font-weight:600;}
+.main-carstagram .list-carstagram li .item-tag span:before {content:"#";}
+
+.main-awards {padding:100px 0;}
+.main-awards-wrap {max-width:1260px;margin:0 auto;}
+.main-awards-wrap:after {content:"";display:block;clear:both;}
+.main-awards .main-awards-tt {float:left;}
+.main-awards .main-awards-tt h3 {font-weight:800;font-family:'NanumSquare';font-size:36px;padding-bottom:10px;}
+.main-awards .main-awards-tt h3 span {font-weight:300;display:block;}
+.main-awards .main-awards-tt p {font-size:16px;letter-spacing:-1px;line-height:24px;color:#333;}
+.main-awards .list-awards {float:right;width:calc(100% - 300px);}
+.main-awards .list-awards .item-img {width:176px;height:220px;overflow:hidden;}
+.main-awards .list-awards .item-img img {width:100%;height:100%;}
+.main-awards .list-awards .item-tt {padding:10px 0 0 0;}
+
+.owl-carousel.list-awards .owl-nav {position:absolute;top:210px;left:-298px;}
+.owl-carousel.list-awards .owl-nav .owl-prev,
+.owl-carousel.list-awards .owl-nav .owl-next {width:40px;height:40px;text-align:center;line-height:38px;border:1px solid #666;margin-left:-1px;}
+.owl-carousel.list-awards .owl-nav .owl-prev span,
+.owl-carousel.list-awards .owl-nav .owl-next span {font-size:36px;line-height:30px;}
+
+.main-tinting {background-image:url(../img/bg_main_tinting.jpg);background-size:cover;background-position:50% 50%;text-align:center;color:#fff;padding:100px 0;}
+.main-tinting-wrap {max-width:1260px;margin:0 auto;}
+.main-tinting .main-tinting-tt h3 {font-weight:800;font-family:'NanumSquare';font-size:48px;padding-bottom:30px;}
+.main-tinting .main-tinting-tt h3 span {color:#ff9966;}
+.main-tinting .main-tinting-tt p {font-size:16px;letter-spacing:-1px;line-height:24px;color:#c8c8c8;}
+
+.main-tinting .list-tinting {margin-top:100px;}
+.main-tinting .list-tinting .tinting-item {text-align:center;}
+.main-tinting .list-tinting .item-img {display:inline-block;width:200px;height:200px;border-radius:50%;overflow:hidden;}
+
+.owl-carousel.list-tinting .owl-nav {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+.owl-carousel.list-tinting .owl-nav .owl-prev,
+.owl-carousel.list-tinting .owl-nav .owl-next {width:50px;height:50px;text-align:center;line-height:38px;}
+.owl-carousel.list-tinting .owl-nav .owl-prev {margin-right:200px;}
+.owl-carousel.list-tinting .owl-nav .owl-prev span,
+.owl-carousel.list-tinting .owl-nav .owl-next span {font-size:48px;line-height:1px;color:#fff;}
+
+.footer {background-color:#343434;}
+.footer .footer-wrap {max-width:1270px;margin:0 auto;}
+.footer .footer-wrap:after {content:"";display:block;clear:both;}
+.footer .footer-left {float:left;width:calc(100% - 550px);}
+
+.footer .family-site {padding:60px 0 30px 0;}
+.footer .family-site h3 {font-size:20px;font-family:'NanumSquare';}
+.footer .family-site h3 span {display:inline-block;border-bottom:4px solid #ff8762;line-height:24px;color:#fff;padding-bottom:5px;}
+.footer .family-site ul {margin:30px 0;}
+.footer .family-site ul:after {content:"";display:block;clear:both;}
+.footer .family-site li {float:left;width:25%;box-sizing:border-box;padding:0 15px 0 0;}
+.footer .family-site li .item-img {width:150px;height:120px;overflow:hidden;margin:0 auto;}
+.footer .family-site li .item-tt {color:#fff;text-align:center;font-size:14px;padding:10px 0;font-weight:600;letter-spacing:-1px;}
+
+.footer .copylight {padding:30px 0 0 0;border-top:1px solid #ccc;margin-right:20px;color:#fff;}
+.footer .copylight h3 {font-size:18px;padding-bottom:10px;}
+.footer .copylight p {font-size:13px;line-height:20px;}
+
+
+.footer .footer-right {float:right;width:500px;}
+.footer .smart-contact {background:#272424 url(../img/bg_smart_map.jpg) 100% 100% no-repeat;background-size:90%;height:340px;padding:50px;box-sizing:border-box;}
+.footer .smart-contact h3 {color:#fff;font-size:20px;font-family:'NanumSquare';letter-spacing:-1px;}
+.footer .smart-contact h3 span {display:block;}
+.footer .smart-contact h3 strong {display:block;color:#ff8762;font-size:48px;font-weight:800;padding:5px 0;}
+.footer .smart-contact h4 {font-size:16px;font-weight:600;font-family:'NanumSquare';color:#fff;padding:5px 0;}
+.footer .smart-contact p {font-size:13px;color:#ccc;font-weight:400;}
+.footer .smart-contact .site-link {padding-top:70px;}
+.footer .smart-contact .site-link a {display:inline-block;margin-right:10px;}
+
+.footer .smart-youtube {background:#000 url(../img/icon_youtube.png) 250px 45px no-repeat;height:250px;padding:40px 50px;box-sizing:border-box;}
+.footer .smart-youtube h3 {color:#fff;font-family:'NanumSquare';font-size:20px;padding-bottom:15px;}
+.footer .smart-youtube h3 span {color:#fe0000;}
+.footer .smart-youtube p {font-size:13px;color:#fff;}
+.footer .smart-youtube a {display:block;margin-top:15px;}
 
 
 
