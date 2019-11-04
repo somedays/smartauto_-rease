@@ -391,7 +391,15 @@ input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;}
 .sub-tt-area.company .sub-tt h2 strong {color:#ff9966;font-weight:800;}
 .sub-tt-area.company .sub-tt .point-black {display:inline-block;padding:8px;background-color:#000;color:#fff;font-family:'nanumSquare';font-size:22px;font-weight:600;margin:10px 0;letter-spacing:-1px;}
 .sub-tt-area.company .sub-tt p {font-family:'nanumSquare';font-size:18px;color:#fff;font-weight:500;line-height:24px;letter-spacing:-1px;}
-.sub-tt-area .sub-tt-ctn {position:absolute;top:0;right:0;left:50%;bottom:0;background-color:rgba(0,0,0,0.74)}
+.sub-tt-area.company .sub-tt-ctn {position:absolute;top:0;right:0;left:50%;bottom:0;background-color:rgba(0,0,0,0.74);font-size:0;padding:50px 70px;}
+.sub-tt-area.company .sub-tt-ctn .stt-count {display:inline-block;width:33.2%;text-align:center;border-top:1px solid rgba(255,255,255,0.43);padding:35px 0;position:relative;}
+.sub-tt-area.company .sub-tt-ctn .stt-count:before {content:"";display:block;width:7px;height:7px;background:url(../img/icon_stt_plus.png) 0 0 no-repeat;position:absolute;top:-4px;right:0;}
+.sub-tt-area.company .sub-tt-ctn .stt-count:first-child {width:100%;border-top:0 none;}
+.sub-tt-area.company .sub-tt-ctn .stt-count:first-child:before {top:auto;right:auto;left:0;bottom:-4px;}
+.sub-tt-area.company .sub-tt-ctn .stt-count .count {display:block;font-size:40px;color:#a29aff;font-family:'nanumSquare';font-weight:800;line-height:45px;white-space:nowrap;}
+.sub-tt-area.company .sub-tt-ctn .stt-count .count:after {content:"명";color:#fff;font-size:35px;vertical-align:text-top;padding-left:2px;white-space:nowrap;}
+.sub-tt-area.company .sub-tt-ctn .stt-count .count.cases:after {content:"건!";}
+.sub-tt-area.company .sub-tt-ctn .stt-count p {font-size:15px;color:#ccc;padding-top:7px;font-family:'nanumSquare';}
 
 
 /* Footer */
@@ -438,6 +446,8 @@ input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;}
 
 @media (max-width:1600px) {
         .sub-container {padding:50px;} 
+        .sub-tt-area.company .sub-tt-ctn .stt-count .count {font-size:36px;}
+        .sub-tt-area.company .sub-tt-ctn .stt-count .count:after {font-size:32px;}
 }
 
 @media (max-width:1300px) {
