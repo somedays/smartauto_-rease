@@ -65,7 +65,7 @@
                     <li class="active"><a href="specials.html"><span>CAR’S 특가</span></a></li>
                     <li onmouseover="$(this).addClass('hover');"><a href="#"><span>신차리스 & 승계</span></a>
                         <ul>
-                            <li><a href="#"><span>신규리스</span></a></li>
+                            <li><a href="car_rease.html"><span>자동차 리스</span></a></li>
                             <li><a href="#"><span>리스승계</span></a></li>
                         </ul>
                     </li>
@@ -382,7 +382,20 @@
                                     <option>14:00 ~ 15:00</option>
                                 </select>
                             </li>
-                            <li><input type="text"></li>
+                            <li>
+                                <div class="selected-item">
+                                    <h5>선택사항</h5>
+                                    <ul class="item-info">
+                                       <li><input type="checkbox" id="select_car" checked><label for="select_car">자동차명</label></li>
+                                       <li><input type="checkbox" id="select_con"><label for="select_con">선택 조건</label></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><div class="policy-area">개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침개인정보 취급 방침</div></li>
+                            <li><input type="checkbox" id="policy_agree" checked><label for="policy_agree">개인정보 취급 방침 동의</label></li>
+                            <li class="btn-area">
+                                <a href="javascript:void(0);"><span>상담 신청</span><img src="resources/img/icon_apply.png"></a>
+                            </li>
                         </ul>
                     </form>
                 </div>
@@ -401,7 +414,19 @@
 <script src="resources/js/waypoints.min.js"></script>
 <script src="resources/js/counterup.min.js"></script>
 <script>
-    
+
+$(window).scroll(function(){
+  var stickytop = $('.specials-inquiry'),
+      scroll = $(window).scrollTop();
+
+  if (scroll >= 700) { 
+    stickytop.addClass('fixed');
+  }
+  else {
+    stickytop.removeClass('fixed');
+  }
+});    
+
 $(document).ready(function(){
 
     // Counter

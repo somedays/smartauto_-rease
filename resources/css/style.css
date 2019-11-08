@@ -57,12 +57,13 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .header .nav > ul > li > a:hover {text-decoration:underline;color:#ff8762;}
 .header .nav > ul > li > a:hover > span {border-bottom:2px solid #ff8762;}
 .header .nav > ul > li > a + ul {display:none;}
-.header .nav > ul > li.on > a + ul,
-.header .nav > ul > li.hover > a + ul {display:block;position:absolute;top:60px;left:-20px;right:-20px;border-bottom:0 none;}
+.header .nav > ul > li.active > a + ul,
+.header .nav > ul > li.hover > a + ul {display:block;position:absolute;top:60px;left:-30px;right:-30px;border-bottom:0 none;}
 .header .nav > ul > li > a + ul:after {content:"";display:block;clear:both;}
 .header .nav > ul > li > a + ul > li {float:left;padding:15px 5px;background-color:rgba(0,0,0,0.001)}
 .header .nav > ul > li > a + ul > li > a {color:#fff;display:block;font-weight:600;padding:0;}
 .header .nav > ul > li > a + ul > li > a span {display:inline-block;font-size:17px;padding:5px 15px;border-radius:20px;}
+.header .nav > ul > li > a + ul > li.active > a span,
 .header .nav > ul > li > a + ul > li > a:hover span {background-color:#ff8762;}
 
 .header .banner {position:absolute;top:0;right:0;padding:50px 50px 0 30px;font-size:0;vertical-align:middle;}
@@ -306,12 +307,15 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .sub-tt-area {position:relative;background:#fff url(../img/header/company_tt.png) 50% 50% no-repeat;height:380px;background-size:cover;padding:80px;box-sizing:border-box;}
 .sub-tt-area.company {background-image:url(../img/header/company_tt.png);}
 .sub-tt-area.specials {background-image:url(../img/header/specials_tt.png);}
+.sub-tt-area.rease {background-image:url(../img/header/car_rease.png);}
 
 .sub-tt-area .sub-tt h2 {font-size:48px;color:#fff;font-weight:800;line-height:50px;letter-spacing:-1px;}
 .sub-tt-area .sub-tt h2 span {font-weight:600;}
 .sub-tt-area .sub-tt h2 strong {color:#ff9966;font-weight:800;}
 .sub-tt-area .sub-tt .point-black {display:inline-block;padding:8px;background-color:#000;color:#fff;font-size:22px;font-weight:600;margin:10px 0;letter-spacing:-1px;}
-.sub-tt-area .sub-tt p {font-size:18px;color:#fff;font-weight:500;line-height:24px;letter-spacing:-1px;}
+.sub-tt-area .sub-tt .point-black span {color:#ff8762;}
+.sub-tt-area .sub-tt .point-pink {display:inline-block;padding:8px;background-color:#000;color:#ff8762;font-size:24px;font-weight:600;margin:20px 0 5px 0;letter-spacing:-1px;}
+.sub-tt-area .sub-tt p {font-size:18px;color:#fff;font-weight:500;line-height:24px;letter-spacing:-1px;text-shadow:0 0 5px #000;}
 
 .sub-tt-area.specials .sub-tt h2 {padding:30px 0 20px 50px;}
 .sub-tt-area.specials .sub-tt p {padding-left:50px;}
@@ -332,25 +336,52 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .sub-ctn-tt .stt-text {display:block;position:relative;padding:0 0 15px 0;margin:0;font-size:27px;font-weight:600;word-break:break-word;}
 .sub-ctn-tt .stt-text:after {content:"";position:absolute;bottom:0;left:0;display:block;width:40px;height:1px;background-color:#333;}
 .sub-ctn-right {flex:80;padding:0 25px;}
+.sub-ctn-area.rease {padding-bottom:0;border-bottom:1px solid #ddd;}
+.sub-ctn-area.rease + .sub-ctn-area.rease {border-bottom:0 none;padding-bottom:50px;}
+.sub-ctn-area.rease .sub-ctn-wrap {display:block;}
+.sub-ctn-area.rease .sub-ctn-tt {flex:none;}
+.sub-ctn-area.rease .sub-ctn-tt .stt-text:after {display:inline-block;position:relative;left:auto;margin-left:20px;width:50px;bottom:-3px;}
+.sub-ctn-area.rease .sub-ctn-right {flex:none;padding:0;}
 
 /* 스마트다이렉트카? */
-.sub-ctn-right .company-ctn-1 p {font-size:15px;line-height:20px;}
-.sub-ctn-right .company-ctn-1 .bold {font-size:20px;font-weight:600;line-height:24px;}
+.company-ctn-1 p {font-size:15px;line-height:20px;}
+.company-ctn-1 .bold {font-size:20px;font-weight:600;line-height:24px;}
 /* 차량판매, 연간 2000억 매출 달성 */
-.sub-ctn-right .company-ctn-2 ul:after {content:"";display:block;clear:both;}
-.sub-ctn-right .company-ctn-2 li {float:left;width:33%;padding:0 10px;box-sizing:border-box;}
-.sub-ctn-right .company-ctn-2 li img {width:100%;max-width:331px;}
-.sub-ctn-right .company-ctn-2 li h5 {font-size:20px;padding:10px 0 5px 0;}
-.sub-ctn-right .company-ctn-2 li p {font-size:15px;color:#666;font-weight:400;max-width:331px;padding-right:10px;}
+.company-ctn-2 ul:after {content:"";display:block;clear:both;}
+.company-ctn-2 li {float:left;width:33%;padding:0 10px;box-sizing:border-box;}
+.company-ctn-2 li img {width:100%;max-width:331px;}
+.company-ctn-2 li h5 {font-size:20px;padding:10px 0 5px 0;}
+.company-ctn-2 li p {font-size:15px;color:#666;font-weight:400;max-width:331px;padding-right:10px;}
 /* 회사개요 */
-.sub-ctn-right .company-ctn-3 table {border-collapse:collapse;border-spacing:0;border:none;width:100%;table-layout:fixed;}
-.sub-ctn-right .company-ctn-3 th {font-size:17px;padding:17px 15px 15px 30px;text-align:left;border-top:1px solid #c6c6c6;border-bottom:1px solid #c6c6c6;border-left:0 none;border-right:0 none;background:url(../img/company_tb_bg.png) 100% 50% no-repeat;}
-.sub-ctn-right .company-ctn-3 td {text-align:left;font-size:17px;padding:17px 15px 15px 25px;border-top:1px solid #c6c6c6;border-bottom:1px solid #c6c6c6;border-left:0 none;border-right:0 none;color:#434343;}
-.sub-ctn-right .company-ctn-3 tr:first-child th,
-.sub-ctn-right .company-ctn-3 tr:first-child td {border-top:1px solid #333;}
+.company-ctn-3 table {border-collapse:collapse;border-spacing:0;border:none;width:100%;table-layout:fixed;}
+.company-ctn-3 th {font-size:17px;padding:17px 15px 15px 30px;text-align:left;border-top:1px solid #c6c6c6;border-bottom:1px solid #c6c6c6;border-left:0 none;border-right:0 none;background:url(../img/company_tb_bg.png) 100% 50% no-repeat;}
+.company-ctn-3 td {text-align:left;font-size:17px;padding:17px 15px 15px 25px;border-top:1px solid #c6c6c6;border-bottom:1px solid #c6c6c6;border-left:0 none;border-right:0 none;color:#434343;}
+.company-ctn-3 tr:first-child th,
+.company-ctn-3 tr:first-child td {border-top:1px solid #333;}
 /* 회사연혁 */
-.sub-ctn-right .company-ctn-4 {text-align:right;padding-right:15%;}
-.sub-ctn-right .company-ctn-4 img {width:100%;max-width:818px;}
+.company-ctn-4 {text-align:right;padding-right:15%;}
+.company-ctn-4 img {width:100%;max-width:818px;}
+
+/* 리스 장점 */
+.rease-ctn-1 ul {padding:30px 0;}
+.rease-ctn-1 ul:after {content:"";display:block;clear:both;}
+.rease-ctn-1 li {float:left;width:50%;position:relative;}
+.rease-ctn-1 li .ctn-icon {position:absolute;top:0;left:0;width:100px;height:100px;background-color:#2e2966;border-radius:50%;text-align:center;line-height:100px;}
+.rease-ctn-1 li .ctn-icon img {width:100%;}
+.rease-ctn-1 li .ctn-text {padding-left:125px;min-height:140px;}
+.rease-ctn-1 li .ctn-text h5 {font-size:24px;font-weight:600;padding:10px 0 10px 0;}
+.rease-ctn-1 li .ctn-text p {font-size:15px;color:#666;line-height:22px;}
+
+
+/* 리스를 선택할 경우 고려해야할 사항 */
+.rease-ctn-2 ul {padding:30px 0;}
+.rease-ctn-2 ul:after {content:"";display:block;clear:both;}
+.rease-ctn-2 li {float:left;width:50%;position:relative;padding-right:30px;box-sizing:border-box;}
+.rease-ctn-2 li .ctn-img {position:absolute;top:0;left:0;width:240px;text-align:center;line-height:100px;}
+.rease-ctn-2 li .ctn-img img {width:100%;}
+.rease-ctn-2 li .ctn-text {padding-left:260px;min-height:220px;padding-bottom:20px;}
+.rease-ctn-2 li .ctn-text h5 {font-size:24px;font-weight:600;padding:5px 0 10px 0;}
+.rease-ctn-2 li .ctn-text p {font-size:15px;color:#666;line-height:22px;}
 
 
 
@@ -380,7 +411,8 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .specials-list .list-item .item-info .car-info li strong {color:#fa6143;font-weight:600;}
 .specials-list .list-item .item-info .car-info ul:nth-child(2) {border-top:1px solid #888;margin-top:10px;padding-top:10px;}
 
-.specials-inquiry {width:350px;padding:30px 20px;border-radius:20px;background-color:#3328ae;position:absolute;top:715px;left:50%;margin-left:-130px;}
+.specials-inquiry {width:18%;padding:30px 20px;border-radius:20px;background-color:#3328ae;position:absolute;top:715px;left:50%;margin-left:66px;z-index:10;transform:translateX(-50%);min-width:300px;}
+.specials-inquiry.fixed {position:fixed;top:20px;}
 .specials-inquiry h3 {color:#fff;font-size:27px;text-align:center;font-weight:800;}
 .specials-inquiry h3 small {display:block;font-size:17px;font-weight:400;padding-top:5px;}
 .specials-inquiry ul {padding-top:15px;}
@@ -391,7 +423,22 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .specials-inquiry li select {padding:0 8px;}
 .specials-inquiry li select option {color:#333;}
 .specials-inquiry li input::placeholder {color:rgba(255,255,255,1);font-size:17px;}
-
+.specials-inquiry li .selected-item {border:1px solid rgba(255,255,255,0.29);background-color:rgba(255,255,255,0.16);padding:10px;box-sizing:border-box;}
+.specials-inquiry li .selected-item h5 {font-size:17px;color:#fff;}
+.specials-inquiry li .selected-item .item-info {padding-top:5px;}
+.specials-inquiry li .selected-item .item-info li {padding:2px 0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.specials-inquiry li input[type="checkbox"] {display:none;}
+.specials-inquiry li input[type="checkbox"] + label:before {content:"";display:inline-block;width:17px;height:17px;background-color:#fff;line-height:20px;vertical-align:middle;margin-right:7px;}
+.specials-inquiry li input[type="checkbox"]:checked + label:before {background:#fff url(../img/icon_check.png) 50% 50% no-repeat;}
+.specials-inquiry li label {display:block;font-size:15px;color:#fff;line-height:24px;padding-left:5px;cursor:pointer;}
+.specials-inquiry li label span {display:inline-block;vertical-align:middle;}
+.specials-inquiry li .policy-area {border:1px solid rgba(255,255,255,0.29);background-color:rgba(255,255,255,0.16);color:#fff;font-size:14px;height:100px;box-sizing:border-box;padding:15px;overflow:auto;line-height:20px;}
+.specials-inquiry li.btn-area {text-align:center;padding:10px 0 5px 0;}
+.specials-inquiry li.btn-area a {width:70%;display:inline-block;background-color:#000033;padding:14px 0 12px;border-radius:25px;}
+.specials-inquiry li.btn-area a:hover {background-color:#161655}
+.specials-inquiry li.btn-area a:active {background-color:#000033;}
+.specials-inquiry li.btn-area a span {display:inline-block;color:#fff;font-size:17px;font-weight:800;vertical-align:middle;padding-right:10px;}
+.specials-inquiry li.btn-area a img {vertical-align:middle;}
 
 
 /* Footer */
