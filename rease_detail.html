@@ -405,17 +405,43 @@
             <div class="color-select">
                 <h3><strong>차량색상선택</strong></h3>
                 <div class="car-img"><img src="http://www.seunghoo.com/smartauto/landing/resources/img/sample_car.png"></div>
-                <div class="color-list">
-                    <ul>
-                        <li>
-                            <input type="radio" id="color_01" name="color_group">
-                            <label for="color_01"><div class="color-box" style="background-color:#aaa"></div><span>다크 그레이</span></label>
-                        </li>
-                        <li>
-                            <input type="radio" id="color_02" name="color_group">
-                            <label for="color_02"><div class="color-box" style="background-color:#f0edf7"></div><span>크리스탈 화이트</span></label>
-                        </li>
-                    </ul>
+                <div class="owl-carousel color-list">
+                    <div class="color-item">
+                        <input type="radio" id="color_01" name="color_group">
+                        <label for="color_01"><div class="color-box" style="background-color:#aaa"></div><span>Flamenco Effect (C06)</span></label>
+                    </div>
+                    <div class="color-item">
+                        <input type="radio" id="color_02" name="color_group">
+                        <label for="color_02"><div class="color-box" style="background-color:#aaa"></div><span>Flamenco Red Effect (C06)</span></label>
+                    </div>
+                    <div class="color-item">
+                        <input type="radio" id="color_03" name="color_group">
+                        <label for="color_03"><div class="color-box" style="background-color:#aaa"></div><span>Flamenco Red(C06)</span></label>
+                    </div>
+                    <div class="color-item">
+                        <input type="radio" id="color_04" name="color_group">
+                        <label for="color_04"><div class="color-box" style="background-color:#aaa"></div><span>Flamenco Red Brillant Effect (C06)</span></label>
+                    </div>
+                    <div class="color-item">
+                        <input type="radio" id="color_05" name="color_group">
+                        <label for="color_05"><div class="color-box" style="background-color:#aaa"></div><span>Brillant Effect (C06)</span></label>
+                    </div>
+                    <div class="color-item">
+                        <input type="radio" id="color_06" name="color_group">
+                        <label for="color_06"><div class="color-box" style="background-color:#aaa"></div><span>Flamenco Effect (C06)</span></label>
+                    </div>
+                    <div class="color-item">
+                        <input type="radio" id="color_07" name="color_group">
+                        <label for="color_07"><div class="color-box" style="background-color:#aaa"></div><span>Flamenco Effect</span></label>
+                    </div>
+                    <div class="color-item">
+                        <input type="radio" id="color_08" name="color_group">
+                        <label for="color_08"><div class="color-box" style="background-color:#aaa"></div><span>Flamenco Red Effect (C06)</span></label>
+                    </div>
+                    <div class="color-item">
+                        <input type="radio" id="color_09" name="color_group">
+                        <label for="color_09"><div class="color-box" style="background-color:#aaa"></div><span>Flamenco Red Brillant Effect (C06)</span></label>
+                    </div>
                 </div>
             </div>
             <div class="view-selected">
@@ -578,6 +604,16 @@ $(document).ready(function(){
         autoplay:true,
         autoplayTimeout:3000,
         autoplayHoverPause:true
+    });
+
+    // Color List
+    var owl = $('.owl-carousel.color-list');
+        owl.owlCarousel({
+        margin: 0,
+        loop: false,
+        items:6,
+        nav: true,
+        autoplay:false
     });
 
     $('.brand-list li .select-item').click (function() {

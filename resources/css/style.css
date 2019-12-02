@@ -485,15 +485,22 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .color-select h3 strong,
 .view-selected h3 strong {display:inline-block;padding:5px 10px;background-color:#372264;font-size:18px;color:#fff;}
 
-.color-select .car-img {min-height: 210px;text-align:center;margin-top: -30px;height: calc(100% - 120px);}
-.color-select .car-img img {height: 85%;}
-.color-select .color-list {text-align:center;padding-top: 0px;}
-.color-select .color-list ul {white-space:nowrap;}
-.color-select .color-list li {display:inline-block;width:70px;box-sizing:border-box;vertical-align:top;}
-.color-select .color-list li input {display:none;}
-.color-select .color-list li label {display:inline-block;vertical-align:top;width:70px;}
-.color-select .color-list li .color-box {display:inline-block;width:70px;height: 25px;background-color:#eee;vertical-align:top;}
-.color-select .color-list li label span {display:block;text-align:center;font-size:12px;padding:5px 3px 0 3px;word-break:break-all;white-space:pre-wrap;}
+.color-select .car-img {min-height:210px;text-align:center;margin-top: -30px;height: calc(100% - 120px);}
+.color-select .car-img img {height:85%;}
+.color-select .color-list {text-align:center;padding-top:0px;white-space:nowrap;max-width:600px;margin:0 auto;}
+.color-select .color-list .color-item {display:block;box-sizing:border-box;margin:0 5px;}
+.color-select .color-list .color-item input {display:none;}
+.color-select .color-list .color-item label {display:block;border:2px solid transparent;}
+.color-select .color-list .color-item input:checked + label {border:1px solid #372264;}
+.color-select .color-list .color-item .color-box {display:block;height: 25px;background-color:#eee;}
+.color-select .color-list .color-item label span {display:block;text-align:center;font-size:12px;min-height:45px;padding:5px 3px 0 3px;word-break:break-all;white-space:pre-wrap;}
+
+.owl-carousel.color-list .owl-nav {position:absolute;top:40%;left:50%;transform:translate(-50%,-50%)}
+.owl-carousel.color-list .owl-nav .owl-prev,
+.owl-carousel.color-list .owl-nav .owl-next {width:50px;height:60px;text-align:center;line-height:38px;}
+.owl-carousel.color-list .owl-nav .owl-prev {margin-right:600px;}
+.owl-carousel.color-list .owl-nav .owl-prev span,
+.owl-carousel.color-list .owl-nav .owl-next span {font-size:48px;line-height:1px;color:#333;font-family:sans-serif;}
 
 .view-selected .view-list {height:calc(100% - 120px);overflow:auto;}
 .view-selected .view-list ul {padding:0 15px;box-sizing:border-box;}
