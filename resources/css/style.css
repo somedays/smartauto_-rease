@@ -628,13 +628,20 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .onepick-wrap {box-sizing:border-box;border-style:solid;border-image: linear-gradient(to top left, #4d4ddb 0%, #e256a4 50%, #4d4ddb 100%);border-image-slice:1;border-width:1px;background-color:#fff;}
 .onepick-tt {position:relative;background-color:#4d4ddb;border-bottom:2px solid #000;height:115px;text-align:center;text-align:center;color:#fff;font-size:32px;font-weight:800;line-height:115px;}
 .onepick-tt:after {content:"";position:absolute;bottom:-2px;right:35px;width:66px;height:105px;background:url(../img/onepick_icon.png) 0 0 no-repeat;}
-.onepick-tt .onepick-info {position:absolute;top:25px;left:20px;line-height:67px;}
+
+.onepick-tt .onepick-info {position:absolute;top:135px;left:20px;line-height:67px;}
 .onepick-tt .onepick-info .info-item {display:inline-block;width:67px;height:67px;border-radius:50%;background-color:#333366;line-height:67px;box-sizing:border-box;}
 .onepick-tt .onepick-info .info-item.sale {background-color:#e556a3;}
+.onepick-tt .onepick-info .info-item.type-1 {background-color:#333366;}
+.onepick-tt .onepick-info .info-item.type-2 {background-color:#fb304d;}
+.onepick-tt .onepick-info .info-item.type-3 {background-color:#f3965e;}
+.onepick-tt .onepick-info .info-item.type-4 {background-color:#9eb964;}
+.onepick-tt .onepick-info .info-item.type-5 {background-color:#2bb2ff;}
+
 .onepick-tt .onepick-info .info-item span {display:inline-block;font-size:12px;line-height:14px;padding-top:21px;}
 
 .onepick-item-info {position:relative;}
-.onepick-item-info .car-info {position: relative;padding: 0 30px;text-align: center;}
+.onepick-item-info .car-info {position:absolute;top:110px;left:30px;}
 .onepick-item-info .car-info h4 {font-size: 22px;font-weight:800;padding-bottom: 5px;}
 .onepick-item-info .car-info p {font-size: 15px;line-height:25px;}
 .onepick-item-info .car-info p em {font-style:normal;text-decoration:line-through;}
