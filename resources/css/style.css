@@ -646,7 +646,7 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .onepick-tt .onepick-info .info-item.type-5 {background-color:#2bb2ff;}
 
 .onepick-item-info {position:relative;}
-.onepick-item-info .car-info {position:absolute;bottom:20px;left:30px;}
+.onepick-item-info .car-info {position:absolute;bottom:0px;left:30px;}
 .onepick-item-info .car-info h4 {font-size: 22px;font-weight:800;padding-bottom: 5px;}
 .onepick-item-info .car-info p {font-size: 15px;line-height:25px;}
 .onepick-item-info .car-info p em {font-style:normal;text-decoration:line-through;}
@@ -825,7 +825,7 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 
 .smart-form-validator em.invalid {
     display:block;
-    margin-top:60px;
+    margin-top:5px;
     padding:0 0 0 10px;
     font-style:normal;
     font-size:11px;
