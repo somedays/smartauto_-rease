@@ -814,7 +814,7 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 
 .smart-form-validator .checkbox.state-error span,.smart-form-validator .radio.state-error span,.smart-form-validator .state-error input,.smart-form-validator .state-error select,.smart-form-validator .state-error textarea,.smart-form-validator .toggle.state-error span {
     /* background:#fff0f0; */
-    border-color:#A90329;
+    border-color:#ff6268;
     background-color: rgba(255,255,255,0.28);
 }
 
@@ -825,12 +825,12 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 
 .smart-form-validator em.invalid {
     display:block;
-    margin-top:5px;
+    margin-top:55px;
     padding:0 0 0 10px;
     font-style:normal;
-    font-size:11px;
+    font-size:12px;
     line-height:15px;
-    color:#ed1c24;
+    color:#ff6268;
     position:absolute;
 }
 
@@ -849,8 +849,8 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 }
 
 .smart-form-validator .checkbox.state-success span,.smart-form-validator .radio.state-success span,.smart-form-validator .state-success input,.smart-form-validator .state-success select,.smart-form-validator .state-success textarea,.smart-form-validator .toggle.state-success span {
-    background:#f0fff0;
-    border-color:#7DC27D
+    background:rgba(113, 113, 113, 0.28);
+    border-color:#fff;
 }
 
 .smart-form-validator .toggle.state-success input:checked+span {
