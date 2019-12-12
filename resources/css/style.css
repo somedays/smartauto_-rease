@@ -522,8 +522,9 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .form-list {float:left;width:50%;}
 .form-list ul {padding:0 20px;}
 .form-list li {border-bottom:1px solid #ddd;padding:20px 10px;}
-.form-list li h5 {font-size:17px;padding-bottom:10px;font-weight:800;}
+.form-list li h5 {font-size:17px;padding-bottom:10px;font-weight:800;position:relative;}
 .form-list li h5 small {display:inline-block;text-transform:uppercase;color:#999;font-size:12px;padding-left:8px;font-weight:400;}
+.form-list li.req h5:before {content:"*";position:absolute;display:inline-block;font-size:15px;color:#ff4e55;top:-5px;left:-8px;}
 .form-list li .input-area input,
 .form-list li .input-area select {border:1px solid #c1b6d6;height:30px;line-height:28px;width:100%;box-sizing:border-box;padding:0 10px;color:#333;font-weight:600;}
 
