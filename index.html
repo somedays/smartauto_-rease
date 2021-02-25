@@ -62,7 +62,7 @@
                 <ul>
                     <li class="active"><a href="index.html"><span>CAR’ STORY</span></a></li>
                     <li><a href="company.html"><span>회사소개</span></a></li>
-                    <li><a href="specials.html"><span>CAR’S 특가</span></a></li>
+                    <li><a href="specials.html"><span>SMART ONE PICK</span></a><div class="point-img"><img src="resources/img/nav_sale_pop.png"></div></li>
                     <li onmouseover="$(this).addClass('hover');"><a href="car_rease.html"><span>신차리스 & 승계</span></a>
                         <ul>
                             <li><a href="car_rease.html"><span>자동차 리스</span></a></li>
@@ -80,14 +80,16 @@
             </div>
         </div>
         <div class="main-text">
-            <p><strong><span>수입차 리스 걱정</span><br><span>잠시만 내려 놓으세요.</span></strong></p>
-            <p><em>돋보적인 판매, 온라인 수입차에 …<br>아직도 매장에서 차량을 구입하시나요?</em></p>
-            <p>‘수입차 오너’라면 비교를 안 할 수 없는, ‘할인율’<br>스마트다이렉트카에서는 고객이 만족할만한 할인율과 프로모션,<br>그리고 최상의 서비스로 고객만족을 실현하겠습니다.</p>
+            <p><strong><span>국내 온라인 리스 점유율 1위!</span><br><span>돋보적인 할인율!</span></strong></p>
+            <p><em>아직도 비싼 가격에 전시장에서 차량 구입 하시나요?</em></p>
+            <p>스마트다이렉트카 리스에서는 온라인에서 쉽고 간편하게<br>최저가 리스 견적을 알아볼 수 있습니다.</p>
         </div>
+        <div class="main-img-point"><img src="resources/img/header/main_img_point.png"></div>
         <div class="side-banner owl-carousel">
             <div><img src="resources/img/main_banner_1.png"></div>
             <div><img src="resources/img/main_banner_2.png"></div>
             <div><img src="resources/img/main_banner_3.png"></div>
+            <div><img src="resources/img/main_banner_4.png"></div>
         </div>
     </div>
 	<div class="main-slide-cars">
@@ -606,6 +608,9 @@
         </div>
     </div>
 </div>
+<div class="main-side-form off">
+    <div class="open-close-btn"></div>
+</div>
 <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="resources/js/owl.carousel.min.js"></script>
 <script src="resources/js/jquery.scrollbar.js"></script>
@@ -619,6 +624,11 @@
 <script>
     
 $(document).ready(function(){
+
+    
+    $('.open-close-btn').click (function() {
+        $('.main-side-form').toggleClass('off');
+    });
 
     $('.rease-now-item .count').counterUp({
         delay: 10,
@@ -759,6 +769,8 @@ $(function(){
 		showItems: 5
 	});
 });
+
+
 
 </script>
 </body>

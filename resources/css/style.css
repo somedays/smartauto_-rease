@@ -39,7 +39,7 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .sub-container {padding:50px 120px;}
 
 .header {z-index:10;height:215px;background:#000 url(../img/header/company.png) 0 0 no-repeat;background-size:cover;position:relative;box-sizing:border-box;}
-.header.main {height:927px;background-image:url(../img/header/main.png);background-size:auto;}
+.header.main {height:927px;background-image:url(../img/header/main.png);background-size:cover;}
 .header.company {background-image:url(../img/header/company.png);}
 .header-wrap {position:relative;padding-left:120px;white-space:nowrap;box-sizing:border-box;}
 .header-wrap:after {content:"";display:block;clear:both;}
@@ -68,6 +68,10 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .header .nav > ul > li > a + ul > li.active > a span,
 .header .nav > ul > li > a + ul > li > a:hover span {background-color:#ff8762;}
 
+.header .nav > ul > li .point-img {position:absolute;top:-15px;left:32px;animation:5s infinite point_action;}
+@keyframes point_action { 0% {opacity:0} 10% {opacity:1} 90% {opacity:1} 100% {opacity:0}}
+
+
 .header .banner {position:absolute;top:0;right:0;padding:50px 50px 0 30px;font-size:0;vertical-align:middle;}
 .header .banner a {display:inline-block;padding:0 20px;}
 
@@ -77,6 +81,7 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .header .main-text p strong span {border-bottom:1px solid #fff;display:inline-block;margin-top:5px;}
 .header .main-text p strong span:first-child {font-weight:800;}
 .header .main-text p em {font-size:24px;font-style:normal;line-height:30px;letter-spacing:-2px;}
+.header .main-img-point {position:absolute;bottom:0;left:50%;margin-left:-550px;font-size:0;}
 
 .header.main .side-banner {position:absolute;bottom:0;right:0;width:645px;height:775px;}
 .header.main .side-banner img {max-width:100%;}
@@ -126,6 +131,11 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .main-slide-cars .slide-item .item-info .car-info li em {font-style:normal;text-decoration:line-through}
 .main-slide-cars .slide-item .item-info .car-info li strong {color:#fa6143;font-weight:600;}
 .main-slide-cars .slide-item .item-info .car-info ul:nth-child(2) {border-top:1px solid #888;margin-top:10px;padding-top:10px;}
+
+.main-side-form {position:absolute;top:152px;right:0;width:540px;height:503px;background:url(../img/main_side_form_bg.png) 0 0 no-repeat;z-index:100;transition:all 0.3s;}
+.main-side-form.off {right:-500px;width:540px;height:503px;}
+.main-side-form .open-close-btn {position:absolute;top:0;left:0;width:40px;height:120px;background-color:transparent;cursor:pointer;}
+.main-side-form.off .open-close-btn {background-image:url(../img/main_side_form_off_bg.png);}
 
 
 .rev_slider li.active-revslide:before {content:"";visibility:visible !important;position:absolute;top:0;bottom:0;left:0;right:0;border:10px solid #444;}
