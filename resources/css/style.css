@@ -511,11 +511,11 @@ input,button,select {outline:none;font-family:'nanumSquare', sans-serif;}
 .color-select .color-list {width:60%;position:relative;text-align:center;padding: 40px 25px 0 25px;font-size:0;box-sizing: border-box;}
 .color-select .color-list .color-item {display:inline-block;box-sizing:border-box;margin:0 3px;}
 .color-select .color-list .color-item input {display:none;}
-.color-select .color-list .color-item label {display:block;cursor:pointer;}
+.color-select .color-list .color-item input + label {display:block;cursor:pointer;}
+.color-select .color-list .color-item input + label span {position:absolute;top:10px;left:50%;text-align:center;font-size:14px;font-weight:bold;padding:5px 3px 0 3px;white-space:nowrap;opacity:0;}
+.color-select .color-list .color-item input + label .color-box {display:block;width:30px;height:25px;background-color:#eee;border:2px solid transparent;transition:border-color 0.3s;}
 .color-select .color-list .color-item input:checked + label .color-box {border:2px solid #372264;}
-.color-select .color-list .color-item input:checked + label span {display:block;}
-.color-select .color-list .color-item .color-box {display:block;width:30px;height:25px;background-color:#eee;border:2px solid transparent;transition:border-color 0.3s;}
-.color-select .color-list .color-item label span {position:absolute;top:10px;left:50%;display:block;text-align:center;font-size:14px;font-weight:bold;padding:5px 3px 0 3px;white-space:nowrap;display:none;transform:translateX(-50%);}
+.color-select .color-list .color-item input:checked + label span {opacity:1;transform:translateX(-50%);}
 
 .view-selected .view-list ul {padding:0 15px;box-sizing:border-box;}
 .view-selected .view-list li {font-size:17px;position:relative;min-height:30px;}
