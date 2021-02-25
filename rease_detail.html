@@ -386,27 +386,12 @@
                     </ul>
                 </div>
             </div>
-            <div class="est-select">
-                <h3>옵션선택 <small>Select Option</small></h3>
-                <div class="select-list view-price">
-                    <ul>
-                        <li>
-                            <input type="checkbox" id="option_01" name="option_group">
-                            <label for="option_01"><span>019년형 가솔린 3.8 2wd 익스클루시브(8인승)</span><em>23,300,000</em></label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="option_02" name="option_group">
-                            <label for="option_02"><span>019년형 가솔린 3.8 2wd 익스클루시브(8인승)</span><em>23,300,000</em></label>
-                        </li>
-                    </ul>
-                </div>
-            </div>
             <div class="color-select">
                 <h3><strong>차량색상선택</strong></h3>
-                <div class="car-img"><img src="http://www.seunghoo.com/smartauto/landing/resources/img/sample_car.png"></div>
-                <div class="owl-carousel color-list">
+                <div class="car-img"><img src="http://lease.smartdirectcar.com/files/app/data/model/362_3682.png"></div>
+                <div class="color-list">
                     <div class="color-item">
-                        <input type="radio" id="color_01" name="color_group">
+                        <input type="radio" id="color_01" name="color_group" checked>
                         <label for="color_01"><div class="color-box" style="background-color:#aaa"></div><span>Flamenco Effect (C06)</span></label>
                     </div>
                     <div class="color-item">
@@ -449,12 +434,12 @@
                     <ul>
                         <li><strong>브랜드</strong><span>BMW</span></li>
                         <li><strong>차량</strong><span>5시리즈</span></li>
-                        <li><strong>등급</strong><span>5시리즈</span></li>
-                        <li><strong>옵션</strong><span><em>옵션명</em><em>옵션명</em><em>옵션명</em></span></li>
+                        <li><strong>등급</strong><span>2019 년형 디젤 2.2 4WD 액세서리 변경 익스클루시브 (8인승) (A/T)</span></li>
                     </ul>
+                    <div class="view-price"><strong>70,000,000</strong></div>
                 </div>
-                <div class="view-price"><strong>70,000,000</strong></div>
             </div>
+            
         </div>
         <div class="step-wrap" id="item_step2" style="display:none;">
             <div class="form-list">
@@ -603,16 +588,6 @@ $(document).ready(function(){
         autoplay:true,
         autoplayTimeout:3000,
         autoplayHoverPause:true
-    });
-
-    // Color List
-    var owl = $('.owl-carousel.color-list');
-        owl.owlCarousel({
-        margin: 0,
-        loop: false,
-        items:6,
-        nav: true,
-        autoplay:false
     });
 
     $('.brand-list li .select-item').click (function() {
